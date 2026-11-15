@@ -1,4 +1,4 @@
-import { getStats } from './_state'
+import { getStats } from './_state.js'
 type Status='pending'|'running'|'success'|'failed'
 type LogKind='thought'|'tool'|'output'|'system'|'error'
 type Node={id:string;name:string;role:string;status:Status;duration?:number;detail:string}
